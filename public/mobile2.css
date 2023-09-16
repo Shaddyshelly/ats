@@ -1,0 +1,103 @@
+body h2 , h1, p{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+}
+
+:root {
+
+
+    --fs-200: 0.5rem;
+    --fs-300: 1rem;
+    --fs-400: 1.5rem;
+    --fs-500: 2rem;
+    --fs-600: 2.5rem;
+    --fs-700: 3rem;
+    --fs-800: 3.5rem;
+    --fs-900: 4rem;
+
+
+
+    --ffheading:"Barlow", sans-serif;;
+    --ffbody: 'Open Sans', sans-serif;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color .5s;
+    font-size: 15px;
+}
+.navbar ul li {
+    list-style: none;
+    padding: 0.5rem 0.5rem;
+}
+.secondary-box h2 {
+    padding-bottom: 3rem;
+    color: white;
+    font-size: var(--fs-600);
+    text-align: center;
+}
+.heading2 {
+    font-size: var(--fs-300);
+    font-weight: 200;
+    width: 40vw;
+}
+.heading {
+    padding-bottom: 1rem;
+    font-size: var(--fs-500);
+    font-weight: 300;
+}
+.aboutimg img {
+    height: 25vh;
+}
+.aboutimg p {
+    padding-top: 1.5rem;
+    font-size: var(--fs-300);
+    font-weight: 300;
+    width: 35vw;
+}   
+.tags {
+    display: block;
+ 
+}
+.difftags {
+    background-color: red;
+    border: 2px solid tomato;
+    padding: 5px 3px 5px 3px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tagcloud {
+    margin: 2rem 0rem;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    font-size: var(--fs-300);
+    font-weight: 100;
+    padding-bottom: 2rem;
+    
+ 
+}
+.secondary-box3 {
+    border-left: 0.5px solid rgb(210, 205, 205);
+    padding-left: 2rem;
+   height: 410vh;
+}
+
+.fifthbox h2 {
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    font-size: var(--fs-600);
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}

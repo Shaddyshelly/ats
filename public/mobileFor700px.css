@@ -1,0 +1,109 @@
+body h2 , h1, p{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+}
+
+:root {
+
+
+    --fs-200: 0.5rem;
+    --fs-300: 1rem;
+    --fs-400: 1.5rem;
+    --fs-500: 2rem;
+    --fs-600: 2.5rem;
+    --fs-700: 3rem;
+    --fs-800: 3.5rem;
+    --fs-900: 4rem;
+
+
+
+    --ffheading:"Barlow", sans-serif;;
+    --ffbody: 'Open Sans', sans-serif;
+
+}
+.primary-box h2 {
+    padding-bottom: 3rem;
+    color: white;
+    font-size: var(--fs-700);
+    text-align: center;
+}
+.navbar ul{
+    display: none;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 0px;
+}
+.secondary-box h1 {
+    padding-bottom: 3rem;
+    color: white;
+    font-size: var(--fs-900);
+    transition: color .5s;
+    text-align: center;
+}
+#navigation{
+    display: none;
+}
+h2{
+    font-size: var(--fs-300);
+}
+.thirdbox{
+    display: block;
+}
+ .flexi{
+    width: 33vw;
+}
+.flexiimages{
+    width: 33vw;
+}
+
+.flexbox1{
+    justify-content: center;
+}
+.flex1 h2{
+    font-size: var(--fs-300);
+}
+.flex3 h2{
+    font-size: var(--fs-300);
+}
+.secondary-box3{
+    width: 80vw;
+}
+.aboutimg p{
+    width:100%
+
+}
+.tags{
+    display: grid;
+}
+.tagcloud{
+    display: block;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.secondary-box3{
+    height: auto;
+}
+.fifthbox h2{
+    width: auto;
+}
+.subscription{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    margin-bottom: 40px;
+}
+button{
+    margin-left: 0px;
+}
+.fleximages{
+    width: 42vw;
+}
